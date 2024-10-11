@@ -23,4 +23,6 @@ public class Dependency {
 	public String getClassNameUpperCase() {
 		return getClassName().toUpperCase();
 	}
+	
+	
 }
