@@ -1,12 +1,28 @@
 package com.mayab.quality.loginunittest.model;
 
 public class User {
+    private int id;
     private String email;
     private String username;
     private String password;
     private boolean isLogged;
 
+    // constructor
+    public User(String email, String username, String password) {
+        this.email = email;
+        this.username = username;
+        this.password = password;
+    }
+
     // getters and setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getEmail() {
         return email;
     }

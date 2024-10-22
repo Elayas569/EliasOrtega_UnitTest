@@ -1,0 +1,5 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscjava.vscode-maven",
+    "editor.formatOnPaste": true
+}
