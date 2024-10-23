@@ -1,5 +1,7 @@
 package com.mayab.quality.loginunittest.dao;
 
+import java.util.List;
+
 import com.mayab.quality.loginunittest.model.User;
 
 public interface IDAOUser {
@@ -13,8 +15,14 @@ public interface IDAOUser {
 
     public boolean deleteUser(String username);
 
-    public boolean updateUser(User user);
+    public User updateUser(User user);
 
-    public int save(User user);
+    int save(User user);
+
+    List<User> findAll();
+
+    User findById(int id);
+
+    boolean deleteById(int id);
 
 }
