@@ -11,9 +11,9 @@ public interface IDAOUser {
 
     public boolean logIn(String username, String password);
 
-    public boolean registerUser(User user);
+    public int registerUser(User user);
 
-    public boolean deleteUser(String username);
+    public boolean deleteUser(User username);
 
     public User updateUser(User user);
 
@@ -21,7 +21,7 @@ public interface IDAOUser {
 
     List<User> findAll();
 
-    User findById(int id);
+    User findById(String id);
 
     boolean deleteById(int id);
 

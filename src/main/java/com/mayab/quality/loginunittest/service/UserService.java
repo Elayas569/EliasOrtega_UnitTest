@@ -58,17 +58,19 @@ public class UserService {
         return dao.findUserByEmail(email);
     }
 
-    public User findUserById(int id) {
-        return dao.findById(id);
-    }
-
-    public User updateUser(User user) {
-        User userOld = dao.findById(user.getId());
-        userOld.setUsername(user.getUsername());
-        userOld.setPassword(user.getPassword());
-        return dao.updateUser(userOld);
-    }
-
+    /*
+     * Para que jale el docker
+     * public User findUserById(int id) {
+     * return dao.findById(id);
+     * }
+     * 
+     * public User updateUser(User user) {
+     * User userOld = dao.findById(user.getId());
+     * userOld.setUsername(user.getUsername());
+     * userOld.setPassword(user.getPassword());
+     * return dao.updateUser(userOld);
+     * }
+     */
     boolean deleteUser(int id) {
         return dao.deleteById(id);
     }

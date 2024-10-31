@@ -12,6 +12,8 @@ public class User {
         this.email = email;
         this.username = username;
         this.password = password;
+        this.isLogged = false;
+
     }
 
     // getters and setters
@@ -53,6 +55,12 @@ public class User {
 
     public void setLogged(boolean logged) {
         isLogged = logged;
+    }
+
+    @Override
+    public String toString() {
+        return "User [id=" + id + ", name=" + username + ", email=" + email + ", password=" + password + ", isLogged="
+                + isLogged + "]";
     }
 
 }
