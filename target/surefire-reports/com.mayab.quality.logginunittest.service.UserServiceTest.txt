@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.mayab.quality.logginunittest.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.426 s <<< FAILURE! -- in com.mayab.quality.logginunittest.service.UserServiceTest
+com.mayab.quality.logginunittest.service.UserServiceTest.testPasswordLong -- Time elapsed: 0.026 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <User [id=0, name=TestEmail, email=TestName, password=AAAAAAAAAAAAAAAA, isLogged=false]>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.mayab.quality.logginunittest.service.UserServiceTest.testPasswordLong(UserServiceTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.mayab.quality.logginunittest.service.UserDAOTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! -- in com.mayab.quality.logginunittest.service.UserDAOTest
+com.mayab.quality.logginunittest.service.UserDAOTest.testAgregarUsuario -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The hierarchy of the type UserDAOTest is inconsistent
+	The method getConnection() is undefined for the type UserDAOTest
+	The method fail(String) is undefined for the type UserDAOTest
+	FileInputStream cannot be resolved to a type
+	The method getConnection() is undefined for the type UserDAOTest
+	File cannot be resolved to a type
+	The method fail(String) is undefined for the type UserDAOTest
+
+	at com.mayab.quality.logginunittest.service.UserDAOTest.<init>(UserDAOTest.java:18)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
